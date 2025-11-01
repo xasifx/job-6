@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallary - Projects</title>
+    <link rel="stylesheet" href="three.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        .gallery-item {
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .gallery-img {
+            width: 100%;
+            height: 280px; 
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+        .gallery-img:hover {
+            transform: scale(1.1); 
+        }
+    </style>
+</head>
+<body class="bg-white">
+
+    <div class="container py-5">
+        <h1 class="text-center display-4 mb-3">Project & Event Gallery</h1>
+        <p class="text-center lead text-muted mb-5">Visual Documentation of Coding, Gaming, and Academic Life.</p>
+        
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+            
+            <div class="col">
+                <div class="gallery-item">
+                    <img src="1.jpg" class="gallery-img" alt="Programming Project Snapshot">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="gallery-item">
+                    <img src="images.jpg" class="gallery-img" alt="Problem Solving Session">
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="gallery-item">
+                    <img src="aizen.jpg" class="gallery-img" alt="Gaming Moment">
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="gallery-item">
+                    <img src="2.jpg" class="gallery-img" alt="Coding Workstation">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="gallery-item">
+                    <img src="3.jpg" class="gallery-img" alt="Learning Material">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="gallery-item">
+                    <img src="logo.jpg" class="gallery-img" alt="Personal Logo / Branding">
+                </div>
+            </div>
+        </div>
+        <p class="mt-5 text-center text-muted small">
+           
+    </div>
+</body>
+</html>
